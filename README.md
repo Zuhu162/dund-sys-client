@@ -143,7 +143,7 @@ Please send an email at - zuhayersiddique162@gmail.com to get an account.
 ## New Things learnt
 
 - Using JWT for authorization and extract user data for different account features.
-- Using lodash library to implement some functionality
+- Using lodash library to implement some functionalities
 - Deploying and connecting app over Netlify and Heroku
 - Protecting routes
 - Better understanding of Asynchronous Javascript
@@ -155,11 +155,9 @@ Please send an email at - zuhayersiddique162@gmail.com to get an account.
 
 ## Contact
 
-Email - zuhayersiddique162@gmail.com
-Project Link: [https://github.com/Sandwizard16/dund-sys_client](https://github.com/Sandwizard16/dund-sys_client)
+Email - zuhayersiddique162@gmail.com <br/>
+Project Link: [https://github.com/Sandwizard16/dund-sys_client](https://github.com/Sandwizard16/dund-sys_client) <br/>
 See the [open issues](https://github.com/Sandwizard16/dund-sys_client/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
