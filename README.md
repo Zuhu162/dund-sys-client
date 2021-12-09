@@ -33,9 +33,6 @@
 <h3 align="center">Dunder Mifflin - Sys</h3>
 
   <p align="center">
-    A project that combines my love for sitcoms and interest towards programming. <br/>
-    This is a fullstack project, which consists of a simplistic UI, constructed of REACTJS (with the help of Material UI and Bootstrap), powered by a backend API constructed of NodeJS and finally MONGODB for the database. Full details of libraries and frameworks used can be found - <a href="#getting-started">Here</a>
-    The project's main functionality is providing a dashboard for employees and managers to monitor and input certain data (EG: Number of Clients, Employee details, Salesmen and their respective clients, Employees and their departments). It also takes the assistance of graphs and charts to visualize data and consits of features that are exclusive to admin accounts. <br/>
     <br />
     <a href="https://github.com/Sandwizard16/dund-sys_client"><strong>Explore the docs »</strong></a>
     <br />
@@ -76,7 +73,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://eloquent-lamport-dbc1e6.netlify.app/)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Sandwizard16`, `dund-sys_client`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+A project that combines my love for sitcoms and interest towards programming. <br/>
+This is a fullstack project, which consists of a simplistic UI, constructed of REACTJS (with the help of Material UI and Bootstrap), powered by a backend API constructed of NodeJS and finally MONGODB for the database. Full details of libraries and frameworks used can be found - <a href="#getting-started">Here</a>
+The project's main functionality is providing a dashboard for employees and managers to monitor and input certain data (EG: Number of Clients, Employee details, Salesmen and their respective clients, Employees and their departments). It also takes the assistance of graphs and charts to visualize data and consits of features that are exclusive to admin accounts. <br/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
