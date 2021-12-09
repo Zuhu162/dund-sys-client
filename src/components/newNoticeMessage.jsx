@@ -28,7 +28,10 @@ export default function NewNotice(props) {
     };
 
     try {
-      const res = await axios.post("/noticeBoard", post);
+      const res = await axios.post(
+        "https://dundermiff-sys.herokuapp.com/api/noticeboard",
+        post
+      );
 
       window.location.replace("/");
     } catch (err) {
