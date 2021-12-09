@@ -76,7 +76,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://eloquent-lamport-dbc1e6.netlify.app/)
 
 <h3>A project that combines my love for sitcoms and interest towards programming. <h3> <br/>
-<h4>This is a fullstack project, which consists of - </br> 🟦 A simplistic UI, constructed of REACTJS (with the help of Material UI and Bootstrap), </br>🟩Powered by a backend API constructed of NodeJS </br> 🟪 And MONGODB for the database. </br> Full details of libraries and frameworks used can be found on the section below. </br>
+<h4>This is a fullstack project, which consists of - </br> 🟦A simplistic UI, constructed of REACTJS (with the help of Material UI and Bootstrap), </br>🟩Powered by a backend API constructed of NodeJS </br> 🟪And MONGODB for the database. </br> Full details of libraries and frameworks used can be found on the section below. </br>
 The project's main functionality is providing a dashboard for employees and managers to monitor and input certain data (EG: Number of Clients, Employee details, Salesmen and their respective clients, Employees and their departments). It also takes the assistance of graphs and charts to visualize data and consits of features that are exclusive to admin accounts.</h4> <br/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
