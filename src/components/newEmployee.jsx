@@ -34,10 +34,7 @@ export default function NewEmployee() {
     };
 
     try {
-      const res = await axios.post(
-        "https://dundermiff-sys.herokuapp.com/api/employees",
-        employee
-      );
+      const res = await axios.post("/employees", employee);
       window.location.replace("/employees/" + res.data._id);
     } catch (err) {
       console.log(err);
@@ -46,9 +43,7 @@ export default function NewEmployee() {
 
   useEffect(() => {
     const fetchDepartments = async () => {
-      const res = await axios.get(
-        "https://dundermiff-sys.herokuapp.com/api/departments"
-      );
+      const res = await axios.get("/departments");
       setDepartments(res.data);
     };
     fetchDepartments();

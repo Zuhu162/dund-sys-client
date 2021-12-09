@@ -2,6 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://dundermiff-sys.herokuapp.com/api",
   "dependencies": {
     "@devexpress/dx-react-chart": "^2.7.6",
     "@devexpress/dx-react-chart-bootstrap4": "^2.7.6",

@@ -6,9 +6,7 @@ export default function Sidebar(props) {
 
   useEffect(() => {
     const fetchDepartments = async () => {
-      const res = await axios.get(
-        "https://dundermiff-sys.herokuapp.com/api/departments"
-      );
+      const res = await axios.get("/departments");
       setDepartments(res.data);
     };
     fetchDepartments();
