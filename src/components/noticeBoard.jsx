@@ -116,7 +116,7 @@ export default function CustomPaginationActionsTable() {
   useEffect(() => {
     const fetchMessages = async () => {
       const res = await axios.get(
-        "https://dundermiff-sys.herokuapp.com/api/noticeboard"
+        "https://dundsys.herokuapp.com/api/noticeboard"
       );
       const sorted = _.orderBy(res.data, ["time"], ["desc"]);
       setMessages(sorted);
