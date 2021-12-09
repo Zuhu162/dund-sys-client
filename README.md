@@ -31,6 +31,8 @@
   </a>
 
 <h3 align="center">Dunder Mifflin - Sys</h3>
+<h3> Link to fully hosted project with backend - <a>https://eloquent-lamport-dbc1e6.netlify.app</a> <h3>
+<h3> Link to backend code repo (NodeJS) 👩🏽‍💻- https://github.com/Sandwizard16/dund-sys-api<h3>
 
   <p align="center">
     <br />
@@ -101,7 +103,6 @@ Backend
 - [Mongoose](https://mongoosejs.com/)
 - [JSON Web Tokens](https://jwt.io/)
 - [Bcrypt](https://www.npmjs.com/package/bcrypt)
-- [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -131,11 +132,7 @@ Please send an email at - zuhayersiddique162@gmail.com to get an account.
 <img src="./assets/NewEmployee.JPG" alt="NewEmployee" width="500">
 <h4>New employees and clients can be added into the database using this form. However, new employees can only be added using Admin accounts</h4>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- ROADMAP -->
 
 ## New Things learnt
 
@@ -148,22 +145,17 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - Better understanding of Forms in ReactJS
 - Deeper understanding of ReactJS hooks as I had learned React using Class Based components.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Contact
+
+Email - zuhayersiddique162@gmail.com
+Project Link: [https://github.com/Sandwizard16/dund-sys_client](https://github.com/Sandwizard16/dund-sys_client)
 See the [open issues](https://github.com/Sandwizard16/dund-sys_client/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
-## Contact
-
-Project Link: [https://github.com/Sandwizard16/dund-sys_client](https://github.com/Sandwizard16/dund-sys_client)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/Sandwizard16/dund-sys_client.svg?style=for-the-badge
 [contributors-url]: https://github.com/Sandwizard16/dund-sys_client/graphs/contributors
