@@ -28,7 +28,9 @@ export default function PieCharts() {
 
   useEffect(() => {
     const fetchSalesData = async () => {
-      const res = await axios.get("/clients");
+      const res = await axios.get(
+        "https://dundermiff-sys.herokuapp.com/api/clients"
+      );
       res.data.forEach((item) => {
         salesData.push(item.salesRep);
       });

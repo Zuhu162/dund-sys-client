@@ -20,7 +20,9 @@ export default function BasicTable() {
 
   useEffect(() => {
     const fetchClients = async () => {
-      const res = await axios.get("/clients");
+      const res = await axios.get(
+        "https://dundermiff-sys.herokuapp.com/api/clients"
+      );
       setClients(res.data);
     };
     fetchClients();

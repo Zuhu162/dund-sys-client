@@ -26,7 +26,10 @@ export default function NewEmployee() {
     };
 
     try {
-      const res = await axios.post("/auth/login", user);
+      const res = await axios.post(
+        "https://dundermiff-sys.herokuapp.com/api/auth/login",
+        user
+      );
 
       localStorage.setItem("token", res.data);
       window.location.replace("/");
