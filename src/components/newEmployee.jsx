@@ -43,7 +43,9 @@ export default function NewEmployee() {
 
   useEffect(() => {
     const fetchDepartments = async () => {
-      const res = await axios.get("/departments");
+      const res = await axios.get(
+        "https://dundsys.herokuapp.com/api/departments"
+      );
       setDepartments(res.data);
     };
     fetchDepartments();

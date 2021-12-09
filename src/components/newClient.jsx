@@ -32,7 +32,10 @@ export default function NewClient() {
     };
 
     try {
-      const res = await axios.post("/clients", client);
+      const res = await axios.post(
+        "https://dundsys.herokuapp.com/api/clients",
+        client
+      );
       window.location.replace("/");
     } catch (err) {
       console.log(err);
@@ -43,7 +46,9 @@ export default function NewClient() {
 
   useEffect(() => {
     const fetchSalesRep = async () => {
-      const res = await axios.get("/employees");
+      const res = await axios.get(
+        "https://dundsys.herokuapp.com/api/employees"
+      );
       for (let i = 0; i < res.data.length - 1; i++) {
         if (res.data[i].department._id === "61aa178dc3738c012a4248a6") {
           temp.push(res.data[i]);

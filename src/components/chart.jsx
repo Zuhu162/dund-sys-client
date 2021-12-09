@@ -55,7 +55,7 @@ export default function Chart() {
 
   useEffect(() => {
     const fetchGraphData = async () => {
-      const res = await axios.get("/clients");
+      const res = await axios.get("https://dundsys.herokuapp.com/api/clients");
 
       for (let i = 0; i < res.data.length - 1; i++) {
         const date = res.data[i].dateAdded;

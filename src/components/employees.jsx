@@ -17,7 +17,9 @@ export default function Employees() {
 
   useEffect(() => {
     const fetchEmployees = async () => {
-      const res = await axios.get("/employees");
+      const res = await axios.get(
+        "https://dundsys.herokuapp.com/api/employees"
+      );
       setEmployees(res.data);
     };
     fetchEmployees();
