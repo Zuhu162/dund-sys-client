@@ -81,13 +81,14 @@ The project's main functionality is providing a dashboard for employees and mana
 
 ### Built With
 
-<p>Front End</p>
+Front End
+
 - [React.js](https://reactjs.org/)
 - [MaterialUI](https://mui.com/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Recharts](https://recharts.org/)
 - [Lodash](https://lodash.com/)
-<p>Backend</p>
+  Backend
 - [Node.js](https://nodejs.org/en/)
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
@@ -111,7 +112,9 @@ Please send an email at - zuhayersiddique162@gmail.com to get an account.
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<h4>My main motivation towards building this project was finding out how to use data from the database displaying them using charts and graphs</h4>
+<img src="./assets/PieChart.JPG" alt="Logo" width="200">
+<h5>The PieChart represents the number of clients each Sales Representatives have. The values are stored by referencing each client to their respective sales rep's unique id. Thus creating a one to many relationship between sales reps and clients.</h5>
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -132,46 +135,11 @@ See the [open issues](https://github.com/Sandwizard16/dund-sys_client/issues) fo
 
 <!-- CONTRIBUTING -->
 
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTACT -->
-
 ## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
 Project Link: [https://github.com/Sandwizard16/dund-sys_client](https://github.com/Sandwizard16/dund-sys_client)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- []()
-- []()
-- []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
