@@ -63,7 +63,7 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#new-things-learnt">New Things Learnt</a></li>
   </ol>
 </details>
 
@@ -88,7 +88,14 @@ Front End
 - [Bootstrap](https://getbootstrap.com/)
 - [Recharts](https://recharts.org/)
 - [Lodash](https://lodash.com/)
-  Backend
+- [Axios](https://github.com/axios/axios)
+
+<br/>
+
+### Built With
+
+Backend
+
 - [Node.js](https://nodejs.org/en/)
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
@@ -112,9 +119,17 @@ Please send an email at - zuhayersiddique162@gmail.com to get an account.
 
 ## Usage
 
-<h4>My main motivation towards building this project was finding out how to use data from the database displaying them using charts and graphs</h4>
-<img src="./assets/PieChart.JPG" alt="Logo" width="200">
-<h5>The PieChart represents the number of clients each Sales Representatives have. The values are stored by referencing each client to their respective sales rep's unique id. Thus creating a one to many relationship between sales reps and clients.</h5>
+<h3>My main motivation towards building this project was finding out how to use data from the database displaying them using charts and graphs</h3>
+<img src="./assets/PieChart.JPG" alt="piechart" width="500">
+<h4>The PieChart(From recharts) represents the number of clients each Sales Representatives have. The values are stored by referencing each client to their respective sales rep's unique id. Thus, creating a one to many relationship between sales reps and clients.</h4>
+<img src="./assets/NoticeBoard.JPG" alt="noticeboard" width="500">
+<h4>The noticeboard is a feature that is composed of MUI and can be used to pin important highlights and messages. It automatically takes the username from the logged in user's Json Web Token.</h4>
+<img src="./assets/LineGraph.JPG" alt="linegraph" width="500">
+<h4>Also a Rechart component, this displays the number of clients gained in certain years and is updated whenever a new client is added.</h4>
+<img src="./assets/EmployeeTable.JPG" alt="ET" width="500">
+<h4>Displays the number of employees that are currently in the database. With custom sorting, filtering and pagination that is implemented using pure javascript.</br> I used pure javascript algorithms to find out how these features are actually implemented in apps</h4>
+<img src="./assets/NewEmployee.JPG" alt="NewEmployee" width="500">
+<h4>New employees and clients can be added into the database using this form. However, new employees can only be added using Admin accounts</h4>
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -122,12 +137,16 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 
-## Roadmap
+## New Things learnt
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-  - [] Nested Feature
+- Using JWT for authorization and extract user data for different account features.
+- Using lodash library to implement some functionality
+- Deploying and connecting app over Netlify and Heroku
+- Protecting routes
+- Better understanding of Asynchronous Javascript
+- Implementing and modelling relationships between different data
+- Better understanding of Forms in ReactJS
+- Deeper understanding of ReactJS hooks as I had learned React using Class Based components.
 
 See the [open issues](https://github.com/Sandwizard16/dund-sys_client/issues) for a full list of proposed features (and known issues).
 
