@@ -31,7 +31,7 @@
   </a>
 
 <h3 align="center">Dunder Mifflin - Sys</h3>
-<h3> Link to fully hosted project with backend - <a>https://eloquent-lamport-dbc1e6.netlify.app</a> <h3>
+<h3> Link to fully hosted project with backend - <a href="https://eloquent-lamport-dbc1e6.netlify.app">https://eloquent-lamport-dbc1e6.netlify.app</a> <h3>
 <h3> Link to backend code repo (NodeJS) 👩🏽‍💻- https://github.com/Sandwizard16/dund-sys-api<h3>
 
   <p align="center">
@@ -76,8 +76,8 @@
 [![Product Name Screen Shot][product-screenshot]](https://eloquent-lamport-dbc1e6.netlify.app/)
 
 <h3>A project that combines my love for sitcoms and interest towards programming. <h3> <br/>
-<p>This is a fullstack project, which consists of a simplistic UI, constructed of REACTJS (with the help of Material UI and Bootstrap), powered by a backend API constructed of NodeJS and finally MONGODB for the database. Full details of libraries and frameworks used can be found - <a href="#getting-started">Here</a>
-The project's main functionality is providing a dashboard for employees and managers to monitor and input certain data (EG: Number of Clients, Employee details, Salesmen and their respective clients, Employees and their departments). It also takes the assistance of graphs and charts to visualize data and consits of features that are exclusive to admin accounts.</p> <br/>
+<h4>>This is a fullstack project, which consists of a simplistic UI, constructed of REACTJS (with the help of Material UI and Bootstrap), powered by a backend API constructed of NodeJS and finally MONGODB for the database. Full details of libraries and frameworks used can be found - <a href="#getting-started">Here</a>
+The project's main functionality is providing a dashboard for employees and managers to monitor and input certain data (EG: Number of Clients, Employee details, Salesmen and their respective clients, Employees and their departments). It also takes the assistance of graphs and charts to visualize data and consits of features that are exclusive to admin accounts.</h4> <br/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
